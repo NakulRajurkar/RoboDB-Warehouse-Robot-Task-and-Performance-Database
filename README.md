@@ -32,3 +32,16 @@ python robodb.py run queries/06_archive.sql
 Run the tests:
 
 python -m pytest
+## Project Structure
+
+- `sql/` - Database schema, triggers, procedures, views, and seed data
+- `queries/` - SQL task demonstrations
+- `tests/` - Automated database tests
+- `robodb.py` - Command-line interface
+- `robodb.db` - Local SQLite database, if included
+
+## Testing
+
+Run the automated test suite with:
+
+python -m pytest
